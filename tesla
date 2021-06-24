@@ -1,0 +1,48 @@
+-conf=<C:\Coin Tes\Teslacoin7June2021\Teslacoin.conf>
+-pid=<Teslacoind.pid>
+-gen
+-datadir=<C:\Coin Tes\Teslacoin7June2021>
+-dbcache=<25>
+-dblogsize=<100>
+-timeout=<5000>
+-proxy=<ip:127.0.0.1>
+-socks=<5>
+-tor=<ip:127.0.0.1>
+-dns
+-port=<1856>
+-maxconnections=<125>
+-addnode=<ip>
+-onlynet=<net>
+-discover
+-listen: 1
+-bind=<[хост]>
+-dnsseed: 0
+-nosynccheckpoints: 0 
+-banscore=<100>         
+  -bantime=<86400>          
+  -maxreceivebuffer=<5000>  
+  -maxsendbuffer=<1000>    
+  -detachdb : 0            
+  -paytxfee=<0.01>       
+  -server               
+  -testnet              
+  -debug                
+  -debugnet              
+  -logtimestamps     
+  -shrinkdebugfile       
+  -printtoconsole       
+  -printtodebugger       
+      
+  
+  -rpcport=<1857>        
+  -rpcallowip=<127.0.0.1>   
+         
+  -blocknotify=<cmd>     
+  -upgradewallet      
+  -keypool=<100>          
+  -rescan               
+         
+  -checkblocks=<2500>      
+  -checklevel=<1>  		 
+  
+                                
